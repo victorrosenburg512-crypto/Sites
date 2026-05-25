@@ -1,0 +1,21 @@
+body {
+    font-family: Inter,  sans-serif; /* Font family */
+    font-size: 11px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #ffffff; /* A cor do plano de fundo da página */
+    color: #000000; /* A cor do texto */ 
+    border:#000000;
+
+}
+h1 {
+    color :#5988FF; /*A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Gill Sans, sans-serif, serif; /* A font usada no cabeçalho*/
+}
+@keyframes color-change {
+  0%   { color: #5988FF; }
+  50%  { color: rgb(162, 0, 255); }
+  100% { color: #5988FF; }
+}
+h1:hover{
+    animation: color-change 3s infinite;
+}
